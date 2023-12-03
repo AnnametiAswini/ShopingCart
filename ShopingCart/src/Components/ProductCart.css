@@ -62,9 +62,9 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    left:-27px;
-    width: 120px;
-    height: 35px;
+    width: 145px;
+    left: 10px;
+   
   }
   
   .view-options-btn {

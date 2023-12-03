@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar">
+            <div className="bg-light ">
                 <ul className="navbarul">
                     <li>Start BootStrap</li>
                     <li>Home</li>

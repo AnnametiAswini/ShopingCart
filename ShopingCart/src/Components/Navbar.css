@@ -11,24 +11,19 @@ html {
   width: 100%;
   height: 100%;
 }
-.navbar,
-section,
-header,
-footer {
-  width: 100vw;
-}
-.navbar {
+
+.bg-light  {
    
    height:50px;
-   /* width:100%; */
+   width:100%;
    background-color:#d8d4d3;
+  
   
 }
 
 .navbarul {
     display:flex;
     gap:50px;
-    top:4px;
     left:85px;
     position:relative;
 
@@ -45,7 +40,6 @@ footer {
     text-decoration: none;
     white-space: nowrap;
     background-color: white;
-    /* background-color: purple; */
     border: 0;
     border-radius: 10px;
 }
@@ -56,7 +50,7 @@ footer {
     position: relative;
     margin: 0px;
     left: 515%;
-    top: -10px;
+   
 }
 .bg-dark {
     height:200px;
@@ -76,9 +70,14 @@ h3 {
     top:70px;
     color:rgba(255, 255, 255, 0.5) !important;
 }
+header {
+    width:100%;
+}
 footer {
     height:100px !important;
+    width:100%;
 }
 section{
     min-height: 600px;
+    width:100%;
 }
