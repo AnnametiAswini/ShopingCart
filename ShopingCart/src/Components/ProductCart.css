@@ -54,6 +54,8 @@
     cursor: pointer;
     position:relative;
     left:-27px;
+    width: 120px;
+    height: 35px;
   }
   
   .remove-cart-btn {
@@ -61,11 +63,15 @@
     border-radius: 3px;
     cursor: pointer;
     left:-27px;
+    width: 120px;
+    height: 35px;
   }
   
   .view-options-btn {
     border-radius: 7px;
     border: none;
+    width: 120px;
+    height: 35px;
 }
   
   .Button-container {
