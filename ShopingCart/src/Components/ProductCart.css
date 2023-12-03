@@ -1,0 +1,75 @@
+/* Style your ProductCard component */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  .product-image 
+     {
+      width: 135px;
+      height: auto;
+      border-radius: 5px;
+      left: 30px;
+      position: relative;
+  }
+  
+  .product-name {
+    position: relative;
+    font-size: 18px;
+    top: 28px;
+    color: black !important;
+    text-align: center;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    top: -25px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .sale-tag {
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    top: -266px;
+    position: relative;
+    left: 172px;
+  }
+  .Buy-tag{
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    top: -266px;
+    position: relative;
+    left:135px;
+  }
+  
+   .cart-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position:relative;
+    left:-27px;
+  }
+  
+  .remove-cart-btn {
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    left:-27px;
+  }
+  
+  .view-options-btn {
+    border-radius: 7px;
+    border: none;
+}
+  
+  .Button-container {
+    display: flex;
+    width:220px;
+    gap:10px;
+  }
